@@ -1,0 +1,17 @@
+This document contains all the placeholders in this document you will need to replace.
+1. This document should be deleted
+2. Readme.md should be adjusted according to your program
+3. MANIFEST.MF
+4. LICENSE
+5. Contributing.md
+6. CODE_OF_CONDUCT.md
+7. CODEOWNERS
+8. Source java files in src folder
+9. Any GUI assets you may need in your program in assets folder
+10. automation/wrappers/releases/compilew.sh and compilew.bat, replace the jar name with your file name.
+11. .github/ISSUE_TEMPLATE/* 
+12. pom.xml
+The remaining folders are used by CI and wrappers. 
+
+You may want to look at automation/wrappers/releases/compilew.sh and compilew.bat . These files generate jars and classes.
+

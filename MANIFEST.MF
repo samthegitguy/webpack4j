@@ -1,0 +1,4 @@
+Main-Class: MAIN-CLASS without class extension
+Built-by: USER-NAME
+Github-Repository: https://github.com/USER-NAME/REPO-NAME
+Version: SEMANTIC-VERSION
