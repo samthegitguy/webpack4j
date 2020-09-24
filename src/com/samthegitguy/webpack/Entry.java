@@ -1,42 +1,37 @@
 package com.samthegitguy.webpack;
 
-import java.time.format.DateTimeFormatter;  
-import java.time.LocalDateTime;
 public class Entry {
+    private String[] config = {"google.com"};
+    public void Entry(String[] config) {
+        this.config = config;
+    }
     public static class constants {
         final static String get = "GET";
         final static String post = "POST";
         final static String put = "PUT";
         final static String delete = "DELETE";
     }
-    private boolean debug = false;
-    public void Debug(boolean debug) {
-        this.debug = debug;
-    }
-    public boolean Debug() {
-        return this.debug;
-    }
-	private static final char[] get = null;     
-    public void Request(String type) {
-        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("yyyy/MM/dd HH:mm:ss");
-        LocalDateTime now = LocalDateTime.now();
-        if (debug) {
-            System.out.println(type + " request called");
-        }
-        switch (type) {
-            case constants.get:
-                break;
-            case constants.post:
-                break;
-            case constants.put:
-                
-                break;
-            case constants.delete:
+    public boolean debug = false;     
+    public class Request {
+        public String get() {
+            String content = "DELETE"; // TODO: Replace with webpage content
 
-                break;
-            default:
-                System.out.println(dtf.format(now) + " - ERROR - Bad request type");
-                break;
+            return content;
+        }
+        public String post() {
+            String content = "DELETE"; // TODO: Replace with webpage content
+
+            return content;
+        }
+        public String put() {
+            String content = "DELETE"; // TODO: Replace with webpage content
+
+            return content;
+        }
+        public String delete() {
+            String content = "DELETE"; // TODO: Replace with webpage content
+
+            return content;
         }
     }
 }
