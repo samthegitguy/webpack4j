@@ -13,25 +13,9 @@
         },
         {
             "type": "java",
-            "name": "CodeLens (Launch) - Emulator",
-            "request": "launch",
-            "cwd": "${workspaceFolder}/bin",
-            "mainClass": "Emulator",
-            "projectName": "password-manager-one_9047a596"
-        },
-        {
-            "type": "java",
-            "name": "CodeLens (Launch) - Emulator",
-            "request": "launch",
-            "mainClass": "Emulator",
-            "cwd": "${workspaceFolder}/bin",
-            "projectName": "passwordmanagerone_16c62676"
-        },
-        {
-            "type": "java",
             "name": "Debug (Launch) - Current File",
             "request": "launch",
-            "cwd": "${workspaceFolder}/bin",
+            "cwd": "${workspaceFolder}/bin/com/samthegitguy/webpack4j",
             "mainClass": "${file}"
         },
         {
@@ -40,7 +24,6 @@
             "request": "launch",
             "mainClass": "index",
             "cwd": "${workspaceFolder}/bin",
-            "projectName": "incognow_b2244b74"
         }
     ]
 }

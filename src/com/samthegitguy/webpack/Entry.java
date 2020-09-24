@@ -13,8 +13,9 @@ public class Entry {
     }
     public boolean debug = false;     
     public class Request {
+        public void Request() {}
         public String get() {
-            String content = "DELETE"; // TODO: Replace with webpage content
+            String content = "DELfETE"; // TODO: Replace with webpage content
 
             return content;
         }
