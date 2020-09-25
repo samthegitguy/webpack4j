@@ -1,10 +1,11 @@
 package com.samthegitguy.webpack;
 
 
-public class debug {
+public class debug extends com.samthegitguy.webpack.Config {
     public static void main(String[] args) {
-        Webpack entry = new Webpack();
-        Webpack.Request request = entry.new Request();
+        String[] config = {"yahoo.com", "HTML", "false"};
+        Requester requester = new Requester(config);
+        Requester.Request request = requester.new Request();
         System.out.println(request.get().toString());
     }
 }
