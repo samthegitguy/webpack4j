@@ -3,7 +3,8 @@ package com.samthegitguy.webpack;
 
 public class debug {
     public static void main(String[] args) {
-        Entry.Request request = new Entry().new Request();
-        System.out.println(request.get());
+        Webpack entry = new Webpack();
+        Webpack.Request request = entry.new Request();
+        System.out.println(request.get().toString());
     }
 }
