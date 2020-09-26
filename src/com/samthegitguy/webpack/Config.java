@@ -3,7 +3,15 @@ package com.samthegitguy.webpack;
 import java.util.Random;
 /**
  * Config
- * Classes that implement his inteface will g
+ * 
+ * All classes using this library should extend this abstract class to inherit the required configuration fields.
+ * The method Config needs to be overridden as follows:
+ * <pre> {@code 
+ * 
+ * } 
+ * Config() { 
+ * }
+ * 
  */
 public abstract class Config {
     public abstract void Config();

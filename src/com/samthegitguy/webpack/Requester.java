@@ -1,8 +1,12 @@
 package com.samthegitguy.webpack;
 
-import java.io.*;
-import java.net.*;
-import org.apache.logging.log4j.*;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.net.MalformedURLException;
+import java.net.URL;
+import org.apache.log4j.*;
+import java.util.logging.LogManager;
 
 public class Requester {
     static Logger logger = LogManager.getLogger(Requester.class);
