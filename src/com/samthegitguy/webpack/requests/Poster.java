@@ -1,5 +1,5 @@
 package com.samthegitguy.webpack.requests;
 
-public class Put {
-    
+public class Poster { 
+
 }

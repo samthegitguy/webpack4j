@@ -8,10 +8,4 @@ public class test extends com.samthegitguy.webpack.Config {
         Requester.Request request = requester.new Request();
         System.out.println(request.get().toString());
     }
-
-    @Override
-    public void Config() {
-        // TODO Auto-generated method stub
-
-    }
 }

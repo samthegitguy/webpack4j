@@ -6,6 +6,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - test",
+            "request": "launch",
+            "mainClass": "com.samthegitguy.webpack.test",
+            "projectName": "webpack4j_885b4aa1"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - debug",
             "request": "launch",
             "mainClass": "com.samthegitguy.webpack.debug",
@@ -23,7 +30,7 @@
             "name": "Debug (Launch)-index<incognow_b2244b74>",
             "request": "launch",
             "mainClass": "index",
-            "cwd": "${workspaceFolder}/bin",
+            "cwd": "${workspaceFolder}/bin"
         }
     ]
 }

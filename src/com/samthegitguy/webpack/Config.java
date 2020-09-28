@@ -1,6 +1,4 @@
 package com.samthegitguy.webpack;
-
-import java.util.Random;
 /**
  * Config
  * 
@@ -14,10 +12,6 @@ import java.util.Random;
  * 
  */
 public abstract class Config {
-    public abstract void Config();
-    String[] config = {"https://google.com", "HTML"};
-    String[][] parameters = {   
-                                {"q", "github"},
-                                {"oq", "github"}
-                            };
+    String[] config;
+    String[][] parameters;
 }

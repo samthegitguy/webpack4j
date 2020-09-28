@@ -5,16 +5,18 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
-import org.apache.log4j.*;
-import java.util.logging.LogManager;
 
 public class Requester {
-    static Logger logger = LogManager.getLogger(Requester.class);
-    private String[] config = { "google.com", "HTML", "true"};
+    private String[] config;
+    private String[][] params;
     public Requester(String[] config) {
         this.config = config;
-        logger.info("HIDIHODO");
-	}
+        System.out.println("Constructor called");
+    }
+    public Requester(String[] config, String[][] params) {
+        this.config = config;
+        this.params = params;
+    }
 
     public enum RequestTypes {
         GET("STRING"), POST("STRING2"), PUT("STRING3"), DELETE("STRIN4");
@@ -36,11 +38,11 @@ public class Requester {
                 BufferedReader readr = new BufferedReader(new InputStreamReader(url.openStream())); 
                 
             } catch (MalformedURLException mue) {
-                logger.error("An error occurred. Please contact the owner of this program for more information.");
-                logger.error(mue.getStackTrace());
+                System.err.println("An error occurred. Please contact the owner of this program for more information.");
+                System.err.println(mue.getStackTrace());
             } catch (IOException ioe) {
-                logger.error("An error occured. Please contact the owner of this program for more information.");
-                logger.error(ioe.getStackTrace());
+                System.err.println("An error occured. Please contact the owner of this program for more information.");
+                System.err.println(ioe.getStackTrace());
             }
             String htmlContent = "Work in Progress";
             return htmlContent;
