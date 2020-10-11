@@ -1,4 +1,4 @@
-package com.samthegitguy.passwordmanagerone;
+package com.samthegitguy.webpack4j;
 
 /**
  * Hello world!

@@ -1,4 +1,4 @@
-package com.samthegitguy.passwordmanagerone;
+package com.samthegitguy.webpack4j;
 
 import static org.junit.Assert.assertTrue;
 
@@ -13,6 +13,6 @@ public class AppTest {
      */
     @Test
     public void shouldAnswerWithTrue() {
-        assertTrue(true);
+        System.out.println("hey");
     }
 }
