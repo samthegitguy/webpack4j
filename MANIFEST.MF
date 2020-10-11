@@ -1,4 +1,0 @@
-Main-Class: MAIN-CLASS without class extension if jar is meant to be executable
-Built-by: USER-NAME
-Github-Repository: https://github.com/USER-NAME/REPO-NAME
-Version: SEMANTIC-VERSION
