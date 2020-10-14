@@ -23,7 +23,7 @@ package com.samthegitguy.webpack4j.core;
  *      String[] config = {"yahoo.com", "HTML", "false"};
  *      Requester requester = new Requester(config);
  *      Requester.Request request = requester.new Request();
- *      System.out.printf("Here is the html code! %s", request.get().toString());
+ *      System.oqut.printf("Here is the html code! %s", request.get().toString());
  *  }
  * }
  * }
