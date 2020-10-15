@@ -1,0 +1,1 @@
+memberSearchIndex = [{"p":"com.samthegitguy.webpack4j","c":"test","l":"main(String[])","url":"main(java.lang.String[])"},{"p":"com.samthegitguy.webpack4j","c":"test","l":"test()","url":"%3Cinit%3E()"}]
