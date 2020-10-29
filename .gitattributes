@@ -1,0 +1,3 @@
+target/site/** linguist-documentation
+docs/** linguist-documentation
+target/** linguist-generated
