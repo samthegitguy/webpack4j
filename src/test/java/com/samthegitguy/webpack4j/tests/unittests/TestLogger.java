@@ -7,7 +7,7 @@ import java.io.*;
 import com.samthegitguy.webpack4j.internals.Logger;
 
 public class TestLogger implements UnitTest {
-    public String[] capture() {
+    private String[] capture() {
         String[] list;
         list = new String[4];
         // Create a stream to hold the output

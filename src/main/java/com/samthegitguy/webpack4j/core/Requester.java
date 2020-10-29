@@ -5,8 +5,11 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.net.MalformedURLException;
 import java.net.URL;
-
+/**
+ * Encapsulation for the advanced usage of requests
+ */
 public class Requester {
+    Internals internals = new Internals();
     private String[] config;
     private String[][] params;
     public Requester(String[] config) {
